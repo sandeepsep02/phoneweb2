@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-image: url("dna.mp4");
+    background-color: aqua;
+
+    
+}
+#video1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 100px;
+ }
+ @media (min-aspect-ratio: 16/9){
+     #video1{
+        margin-top: 100px;
+         width: 100%;
+         height: auto;
+     }
+}
+
+#logo1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: transparent;
+    color: aqua;
+    border-color: transparent;
+    margin-left: 2%;
+    
+}
+@media (max-width: 768px) {
+  #logo1{
+    margin-top: 7px;
+    margin-left: 130px;
+    font-size: 20px;
+    
+  }
+}
+#box1{
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 13%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+
+
+}
+@media (max-width: 768px) {
+  #box1{
+    margin-top: 70px;
+    font-size: 10px;
+    
+  }
+}
+#home{
+    height: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(0, 34, 255);
+    
+}
+@media (max-width: 768px) {
+  #home{
+    font-size: 10px;
+    margin-left: 15px;
+  }
+}
+#register{
+    position: absolute;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 9px;
+    margin-left: 18%;
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: rgb(0, 21, 246);
+    color: white;
+}
+@media (max-width: 768px) {
+  #register {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 50px;
+    
+  }
+}
+#webpreview{
+    position: absolute;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: -45%;
+    margin-top: 17%;
+    cursor: pointer;
+    background-color: rgb(147, 246, 0);
+}
+@media (max-width: 768px) {
+  #webpreview {
+    font-size: 10px;
+    margin-left: -200px;
+    margin-top: 450px;
+    width: 100px;
+    
+  }
+}
+#health{
+    position: absolute;
+    font-size: 50px;
+    border: none;
+    margin-left: -49%;
+    margin-top: 23%;
+    cursor: pointer;
+    background-color: transparent; 
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+  #health {
+    font-size: 20px;
+    margin-left: -280px;
+    
+  }
+}
+#health2{
+    position: absolute;
+    font-size: 50px;
+    border: none;
+    margin-left: -49%;
+    margin-top: 28%;
+    background-color: transparent; 
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+  #health2 {
+    font-size: 20px;
+    margin-left: -280px;
+    
+  }
+}
+#lorem{
+    list-style-type: none;
+    margin-top: 32%;
+    margin-left: 5%;
+    font-size: 18px;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+  #lorem {
+    font-size: 13px;
+    
+    margin-top: 120px;
+    width: 100px;
+    
+  }
+}
+#box3{
+    background-image: url("doc.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 200px;
+    width: 200px;
+    margin-top: -350px;
+    margin-left: 70%;
+    border-radius: 50%;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+@media (max-width: 768px) {
+  #box3 {
+    height: 80px;
+    width: 80px;
+    margin-top: -250px;
+    
+  }
+}
+#input{
+    position: absolute;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 220px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-color: rgb(188, 234, 234);
+
+}
+@media (max-width: 768px) {
+  #input {
+    width: 150px;
+    margin-top: 400px;
+    margin-left: 30px;
+    border: 5px;
+    
+  }
+}
+
+.buttons{
+  position: absolute;
+  color: rgb(240, 22, 124);
+  font-size: 15px;
+  background-color: transparent;
+  margin-top: 600px;
+  margin-left: 100px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.buttons:hover{
+  box-shadow: rgba(255, 4, 188, 0.973) 0px 0px 10px 10px;
+    border-color: rgb(0, 0, 0);
+}
+#homex{
+  margin-left: 90px;
+}
+#aboutx{
+  margin-left: 160px;
+}
+#servicex{
+  margin-left: 230px;
+}
+#contectx{
+  margin-left: 320px;
+}
